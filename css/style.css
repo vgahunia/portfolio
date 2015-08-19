@@ -1,0 +1,34 @@
+body {
+	width: 100%;
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.menu {
+	width: 100%;
+	margin: 0 auto;
+	background: rgba(0, 0, 0, .4);
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.menu ul {
+	text-align: center;
+}
+
+.menu li {
+	display: inline;
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-align: center;
+}
+
+.menu li a {
+	text-decoration: none;
+	color: rgb(240, 240, 240);
+}
+
+.menu li a:hover {
+	color: rgb(0, 0, 0);
+}
