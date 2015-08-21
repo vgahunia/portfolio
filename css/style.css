@@ -2,14 +2,19 @@ body {
 	width: 100%;
 	max-width: 1440px;
 	margin: 0 auto;
+	font-family: 'Julius Sans One', sans-serif;
 }
+
+/* =======================
+				MENU
+========================== */
 
 .menu {
 	width: 100%;
 	margin: 0 auto;
 	background: rgba(0, 0, 0, .4);
 	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-bottom: 10px;
 }
 
 .menu ul {
@@ -32,3 +37,80 @@ body {
 .menu li a:hover {
 	color: rgb(0, 0, 0);
 }
+
+/* ========================
+					HOME
+========================= */
+
+article {
+	width: 1280px;
+	height: 810px;
+	margin: 0 auto;
+}
+
+#name h1 {
+	color: rgb(240, 240, 240);
+	font-size: 3em;
+	margin-bottom: 0;
+}
+
+#name h3 {
+	color: rgb(170, 170, 170);
+	font-size: 2em;
+	margin-left:11%;
+	margin-top: 0;
+	width: 280px;
+	font-family: 'Josefin Sans', sans-serif;
+	border-top: 1px solid black;
+}
+
+article #name {
+/*	margin-left: 5%;*/
+	padding-top: 35%;
+}
+
+.poem {
+	float: right;
+	width: 40%;
+	font-family: 'Calligraffitti', cursive;
+	color: white;
+	padding-top: 7%;
+}
+
+.poem p {
+	margin: 2px;
+	font-size: 1.1em;
+}
+
+.indent {
+	padding-left: 160px;
+}
+
+.indent2 {
+	padding-left: 180px;
+	padding-top: 5px;
+}
+
+.poem p:last-child {
+	font-size: 1.3em;
+	color: rgb(170, 170, 170);
+}
+
+/* ========================
+					IMAGE
+========================== */
+
+video {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
+.image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: -1;
+}
+
