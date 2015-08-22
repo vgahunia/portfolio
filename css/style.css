@@ -53,10 +53,6 @@ article {
 	margin: 0 auto;
 }
 
-/*#name {
-	display: hidden;
-}*/
-
 #name h1 {
 	color: rgb(240, 240, 240);
 	font-size: 3em;
@@ -73,9 +69,9 @@ article {
 	border-top: 1px solid black;
 }
 
-article #name {
+#name {
 /*	margin-left: 5%;*/
-	padding-top: 35%;
+	padding-top: 30%;
 }
 
 .poem {
@@ -138,7 +134,13 @@ video {
 
 .bio {
 	margin-left: 70%;
-	margin-top: 30%;
+	margin-top: 25%;
 	width: 400px;
+	font-size: 1.1em;
 	color: white;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.bio p {
+	margin: 8px;
 }
