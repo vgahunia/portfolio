@@ -132,15 +132,15 @@ video {
 }
 
 .bio {
-	margin-left: 70%;
+	margin-left: 68%;
 	margin-top: 25%;
 	width: 400px;
-	font-size: 1.1em;
+	font-size: 1.2em;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
 }
 
-.bio p {
+.bio li {
 	margin: 8px;
 }
 
@@ -171,6 +171,11 @@ video {
 
 .project img{
    width: 50%;
+   opacity: .6;
+}
+
+.project img:hover {
+	opacity: 1;
 }
 
 #window {
@@ -206,7 +211,9 @@ video {
    margin-top: 25px;
    margin-left: 18%;
    margin-right: 18%;
+   margin-bottom: 0;
 }
+
 .video iframe {
    position: absolute;
    top: 0;
