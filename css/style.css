@@ -38,6 +38,7 @@ body {
 	color: rgb(0, 0, 0);
 }
 
+
 /* ========================
 					HOME
 ========================= */
@@ -226,7 +227,8 @@ video {
 
 .contact {
 	width: 60%;
-	margin-left: 3%;
+	margin-left: 35%;
+	font-family: 'Josefin Sans', sans-serif;
 }
 
 .col {
@@ -235,6 +237,7 @@ video {
 	border-right: 1px solid black;
 	margin: 20px auto;
 	text-align: center;
+	padding: 5px;
 }
 
 /* ======================
