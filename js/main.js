@@ -1,10 +1,8 @@
 
 $(document).ready(function(){
-	$(".menu").hover(function(){
-    $(this).css("visibility", "visible");
-	},
-	function(){
-	    $(this).css("visibility", "hidden");
+	$("#title").click(function(){
+        $(".project").show();
+        $("#port").css("overflow-y", "scoll");
 	});
 });
 
