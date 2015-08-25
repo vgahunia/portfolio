@@ -38,7 +38,6 @@ body {
 	color: rgb(0, 0, 0);
 }
 
-
 /* ========================
 					HOME
 ========================= */
@@ -67,7 +66,7 @@ article {
 
 #name {
 /*	margin-left: 5%;*/
-	padding-top: 30%;
+	padding-top: 35%;
 }
 
 .poem {
@@ -152,7 +151,7 @@ video {
 	margin-left: 120px;
 	height: 500px;
 	overflow: scroll;
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 #title {
@@ -221,30 +220,31 @@ video {
    height: 80%;
 }
 
-/* ======================
-					CONTACT
-======================== */
+/*========================
+				CONTACT
+=======================  */
 
 .contact {
-	width: 60%;
-	margin-left: 35%;
-	font-family: 'Josefin Sans', sans-serif;
+	width: 700px;
+	margin-left: 30%;
+	margin-top: 100px;
+	position: absolute;
 }
 
 .col {
 	float: left;
 	width: 300px;
-	border-right: 1px solid black;
-	margin: 20px auto;
-	text-align: center;
-	padding: 5px;
+	padding: 15px;
 }
 
+.col:first-child {
+	border-right: 1px solid black;
+}
 /* ======================
 				RADIAL MENU
 ======================== */
 
-.circular-menu {
+/*.circular-menu {
   width: 250px;
   height: 250px;
   left: 40%;
@@ -310,6 +310,6 @@ video {
 
 .menu-button:hover {
   background-color: rgb(170, 170, 170);
-}
+}*/
 
 
