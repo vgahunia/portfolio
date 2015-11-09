@@ -119,11 +119,9 @@ video {
 =========================== */
 
 #port {
-	width: 600px;
-	margin-left: 120px;
 	height: 500px;
 	overflow: scroll;
-	margin-top: 100px;
+	margin-top: 50px;
 }
 
 #title {
@@ -142,6 +140,7 @@ video {
 .project img{
    width: 50%;
    opacity: .6;
+   margin-bottom: 10px;
 }
 
 .project img:hover {
@@ -152,8 +151,37 @@ video {
 	width: 200px;
 }
 
+#blog {
+	width: 240px;
+}
+
+#posthaste {
+	width: 240px;
+}
+
+#dedo {
+	width: 240px;
+}
+
+#bela_img {
+	width: 240px;
+}
+
+#arboretum_img {
+	width: 240px;
+}
+
+#tincan {
+	background-color: white;
+	width: 180px;
+	padding: 10px;
+	border-radius: 25px;
+	border: 1px solid black;
+}
+
 .heading {
 	font-size: 1.4em;
+	color: rgb(255, 255, 255);
 }
 
 .description {
@@ -199,6 +227,7 @@ video {
 .contact {
 	margin: 10%;
 	border-bottom: 1px solid black;
+	font-size: 1.2em;
 }
 
 #name_contact h3 {
