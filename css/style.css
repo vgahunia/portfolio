@@ -50,10 +50,11 @@
 }
 
 #name h3 {
-	color: rgb(170, 170, 170);
+	color: rgb(0, 0, 0);
 	font-size: 2em;
 	margin-left:20%;
 	padding-left: 4%;
+	padding-top: 3px;
 	margin-top: 0;
 	width: 240px;
 	font-family: 'Josefin Sans', sans-serif;
@@ -62,7 +63,7 @@
 }
 
 #name {
-	margin-top: 360px;
+	margin-top: 320px;
 	margin-left: 20px;
 }
 
@@ -88,26 +89,29 @@ video {
 					BIO
 ========================== */
 
-#slogan {
-	font-size: 5em;
-	font-style: italic;
-	color: rgb(255, 210, 210);
-	position: absolute;
-	margin-left: 70%;
-	margin-top: 5%;
+#bio-page {
+	background-color: rgb(180, 180, 180);
 }
 
 .bio {
-	margin-left: 68%;
-	margin-top: 25%;
-	width: 400px;
-	font-size: 1.2em;
+	margin-top: 55%;
+	font-size: 1.4em;
 	color: white;
 	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 0;
 }
 
 .bio li {
-	margin: 8px;
+	margin: 5px;
+	list-style-type: none;
+	padding
+}
+
+.bio hr {
+	margin: 5px;
+	padding: 0;
+	border: 1px dotted rgb(220, 220, 220);
+	width: 100px;
 }
 
 /* ==========================
@@ -193,20 +197,31 @@ video {
 =======================  */
 
 .contact {
-	width: 700px;
-	margin-left: 30%;
-	margin-top: 100px;
-	position: absolute;
+	margin: 10%;
+	border-bottom: 1px solid black;
 }
 
-.col {
-	float: left;
-	width: 300px;
-	padding: 15px;
+#name_contact h3 {
+	border-top: 1px solid black;
+	color: rgb(0, 0, 0);
+	font-size: 2em;
+	margin-left:20%;
+	padding-left: 4%;
+	padding-top: 3px;
+	margin-top: 0;
+	width: 240px;
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: right;
 }
 
-.col:first-child {
-	border-right: 1px solid black;
+#email {
+	font-family: 'Josefin Sans', sans-serif;
+	text-align: center;
+}
+
+#name_contact h1 {
+	margin-bottom: 0;
+	color: rgb(180, 180, 180);
 }
 
 
