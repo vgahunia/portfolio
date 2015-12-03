@@ -308,3 +308,15 @@ video {
 	}
 
 }
+
+@media only screen and (min-width: 1440px) {
+  
+	.image {
+		width: 100%;
+	}
+	
+	video {
+		width: 100%;
+	}
+
+}
